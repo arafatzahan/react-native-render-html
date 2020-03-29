@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import { View, Text, ViewPropTypes, ActivityIndicator, Dimensions } from 'react-native';
+import { View, ViewPropTypes, Dimensions } from 'react-native';
+import { Text, Spinner as ActivityIndicator } from '@ui-kitten/components';
 import { cssStringToRNStyle, _getElementClassStyles, cssStringToObject, cssObjectToString, computeTextStyles } from './HTMLStyles';
 import {
     BLOCK_TAGS,

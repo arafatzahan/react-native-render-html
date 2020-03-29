@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
-import { Image, View, Text } from 'react-native';
+import { View, Image } from 'react-native';
+import { Text } from '@ui-kitten/components';
+
 import PropTypes from 'prop-types';
 
 export default class HTMLImage extends PureComponent {
